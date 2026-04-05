@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    background: #fff0f5;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    color: #d06aa7;
+}
+
+#gestionCandidatures {
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.staff-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #d06aa7;
+    color: white;
+}
+
+div.candidature {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background: #ffe6f0;
+    border-radius: 8px;
+}
+
+input {
+    margin: 3px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
