@@ -9,37 +9,16 @@
 
 <h1>Recrutement GTA RP</h1>
 
-<!-- Bouton Staff -->
+<a href="postuler.html"><button class="postuler-btn">Postuler</button></a>
+
+<!-- Bouton staff -->
 <button id="btnStaff" class="staff-btn">Staff</button>
 
-<!-- Formulaire de candidature -->
-<form id="formCandidature">
-    <h2>Postuler</h2>
-    <input id="prenomHrp" placeholder="Prénom HRP" required><br>
-    <input id="ageHrp" placeholder="Âge HRP" required><br>
-    <input id="discordID" placeholder="ID Discord" required><br>
-    <input id="pseudoDiscord" placeholder="Pseudo Discord" required><br>
-    <input id="pseudoRp" placeholder="Pseudo RP" required><br>
-    <input id="prenomNom" placeholder="Prénom Nom" required><br>
-    <input id="lieuxNaissance" placeholder="Lieu de naissance"><br>
-    <input id="sexe" placeholder="Sexe"><br>
-    <input id="tel" placeholder="Numéro de téléphone"><br>
-    <input id="rib" placeholder="RIB"><br>
-    <input id="disponibilite" placeholder="Disponibilité"><br>
-    <input id="presentation" placeholder="Présentation"><br>
-    <input id="diplome" placeholder="Diplôme"><br>
-    <input id="motivation" placeholder="Motivation"><br>
-    <input id="permis" placeholder="Permis"><br>
-    <input id="conclusion" placeholder="Conclusion"><br>
-    <button type="submit">Envoyer la candidature</button>
-</form>
-
-<!-- Bouton pour staff -->
+<!-- Bouton pour gérer les candidatures, caché par défaut -->
 <div id="btnGestionCandidaturesContainer" style="display:none;">
     <button id="btnGestionCandidatures">Gérer les candidatures</button>
 </div>
 
-<!-- Panel candidatures -->
 <div id="gestionCandidatures"></div>
 
 <script src="script.js"></script>
